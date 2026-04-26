@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training artifacts
+*.log
+finetune_log.txt
+finetune_phase2_*_log.txt
+
+# Per-epoch checkpoints (keep only canonical final weights in weights/)
+**/checkpoints/ckpt_*_ep*.pt
+**/checkpoints_*/ckpt_*_ep*.pt
+
+# Large generated synthetic data (regenerable from solver)
+synthetic data/
+*.pkl
+
+# Eval outputs
+eval_outputs/
+oos_outputs/
+var_outputs/
+forecast_outputs/
