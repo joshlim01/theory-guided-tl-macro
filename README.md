@@ -9,7 +9,6 @@ Chen et al. (2024) — originally developed for option pricing — extends to
 macroeconomic forecasting, where the structural model is a DSGE rather than
 Black–Scholes and the real-data sample is orders of magnitude smaller.
 
-Report: `docs/report.pdf` (drop the compiled CPSC 440 PDF here).
 
 ## Pipeline
 
@@ -193,7 +192,7 @@ slots for real features without architectural change.
 | Schedule | Cosine | Cosine | Cosine |
 | Grad clip | – | 1.0 | 1.0 |
 
-## Citation
+<!-- ## Citation
 
 If you use this code, please cite the CPSC 440 report:
 
@@ -206,7 +205,7 @@ If you use this code, please cite the CPSC 440 report:
   note   = {CPSC 440/550 course project, University of British Columbia},
   url    = {https://github.com/joshlim01/theory-guided-tl-macro}
 }
-```
+``` -->
 
 The methodological inspiration is Chen, Cheng, Liu, and Tang (2024),
 *Teaching Economics to the Machines*.
