@@ -1,6 +1,6 @@
 # Theory-Guided Transfer Learning for Macroeconomic Forecasting
 
-Code and weights for the CPSC 440/550 course project: embedding a Real
+Code and weights for the CPSC 440 & COMM 486i course project: embedding a Real
 Business Cycle (RBC) prior into a residual neural network via synthetic
 pretraining and two-stage empirical fine-tuning.
 
